@@ -10,7 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Rockstar Chatbot',
-      theme: ThemeData(primarySwatch: Colors.orange),
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+      ),
       debugShowCheckedModeBanner: false,
       initialRoute: '/home',
       routes: {
